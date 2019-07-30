@@ -12,6 +12,8 @@
             echo "<div class='notif'>Maaf harus melengkapi form dibawah ini</div>";
         }else if($notif == "password"){
             echo "<div class='notif'>Maaf, password yang anda masukkan td sama</div>";
+        }else if($notif == "email"){
+            echo "<div class='notif'>Maaf, email yang anda masukkan sdh terdaftar</div>";
         }
     ?>
     <div class="element-form">
